@@ -1,0 +1,63 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<ul class="navbar-nav">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark"> @User.Identity?.Name</a>
+        </li>
+        <li class="nav-item">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Accidents", new { area = "" })" id="logoutForm">
+                <button type="button" class="nav-link btn btn-link text-dark" onclick="confirmLogout()">ログアウト</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        //<li class="nav-item">
+        //    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        //</li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">ログイン</a>
+        </li>
+    }
+</ul>
+
+<script type="text/javascript">
+    (function () {
+        let isFormChanged = false;
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const editForm = document.getElementById('editForm');
+            const createForm = document.getElementById('createForm');
+
+            if (editForm) {
+                editForm.addEventListener('change', function () {
+                    isFormChanged = true;
+                });
+            }
+
+            if (createForm) {
+                createForm.addEventListener('change', function () {
+                    isFormChanged = true;
+                });
+            }
+        });
+
+        function confirmLogout() {
+            if (isFormChanged) {
+                if (confirm("保存せずログアウトしますか？")) {
+                    document.getElementById('logoutForm').submit();
+                }
+            } else {
+                if (confirm("ログアウトしますか？")) {
+                    document.getElementById('logoutForm').submit();
+                }
+            }
+        }
+
+        window.confirmLogout = confirmLogout;
+    })();
+</script>

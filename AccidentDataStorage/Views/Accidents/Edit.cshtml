@@ -1,0 +1,193 @@
+﻿@model AccidentDataStorage.Models.Accidents.Accidents
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Edit" id="editForm">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="AccidentId" />
+            <input type="hidden" name="FilterConstructionField" value="@ViewBag.ConstructionField" />
+            <input type="hidden" name="FilterConstructionType" value="@ViewBag.ConstructionType" />
+            <input type="hidden" name="FilterYearFrom" value="@ViewBag.YearFrom" />
+            <input type="hidden" name="FilterMonthFrom" value="@ViewBag.MonthFrom" />
+            <input type="hidden" name="FilterTimeFrom" value="@ViewBag.TimeFrom" />
+            <input type="hidden" name="FilterYearTo" value="@ViewBag.YearTo" />
+            <input type="hidden" name="FilterMonthTo" value="@ViewBag.MonthTo" />
+            <input type="hidden" name="FilterTimeTo" value="@ViewBag.TimeTo" />
+            <input type="hidden" name="FilterAccidentBackground" value="@ViewBag.AccidentBackground" />
+
+            <div class="row">
+                <div class="form-group col-md-2">
+                    <label asp-for="AccidentId" class="control-label">ID</label>
+                    <input asp-for="AccidentId" class="form-control" readonly />
+                </div>
+                <div class="col-md-10 d-flex justify-content-end align-items-center">
+                    <button type="button" class="btn btn-secondary" id="deleteButton">削除</button>
+                </div>
+            </div>
+
+            <!-- Second Row: 工事分野, 工事の種類, and 工種 -->
+            <div class="row">
+                <div class="form-group col-md-4">
+                    <label asp-for="ConstructionField" class="control-label">工事分野</label>
+                    @Html.DropDownListFor(model => model.ConstructionField, new SelectList(ViewBag.ConstructionFieldList, "ItemName", "ItemName"), "", new { @class = "form-control" })
+                    <span asp-validation-for="ConstructionField" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-4">
+                    <label asp-for="ConstructionType" class="control-label">工事の種類</label>
+                    @Html.DropDownListFor(model => model.ConstructionType, new SelectList(ViewBag.ConstructionTypeList, "ItemName", "ItemName"), "", new { @class = "form-control" })
+                    <span asp-validation-for="ConstructionType" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-4">
+                    <label asp-for="WorkType" class="control-label">工種</label>
+                    @Html.DropDownListFor(model => model.WorkType, new SelectList(ViewBag.WorkTypeList, "ItemName", "ItemName"), "", new { @class = "form-control" })
+                    <span asp-validation-for="WorkType" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Third Row: 工法・形式名, 災害分類, and 事故分類 -->
+            <div class="row">
+                <div class="form-group col-md-4">
+                    <label asp-for="ConstructionMethod" class="control-label">工法・形式名</label>
+                    @Html.DropDownListFor(model => model.ConstructionMethod, new SelectList(ViewBag.ConstructionMethodList, "ItemName", "ItemName"), "", new { @class = "form-control" })
+                    <span asp-validation-for="ConstructionMethod" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-4">
+                    <label asp-for="DisasterCategory" class="control-label">災害分類</label>
+                    @Html.DropDownListFor(model => model.DisasterCategory, new SelectList(ViewBag.DisasterCategoryList, "ItemName", "ItemName"), "", new { @class = "form-control" })
+                    <span asp-validation-for="DisasterCategory" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-4">
+                    <label asp-for="AccidentCategory" class="control-label">事故分類</label>
+                    @Html.DropDownListFor(model => model.AccidentCategory, new SelectList(ViewBag.AccidentCategoryList, "ItemName", "ItemName"), "", new { @class = "form-control" })
+                    <span asp-validation-for="AccidentCategory" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Fourth Row: 天候 -->
+            <div class="row">
+                <div class="form-group col-md-4">
+                    <label asp-for="Weather" class="control-label">天候</label>
+                    @Html.DropDownListFor(model => model.Weather, new SelectList(ViewBag.WeatherList, "ItemName", "ItemName"), "", new { @class = "form-control" })
+                    <span asp-validation-for="Weather" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Fifth Row: 事故発生年, 月 and 時間 -->
+            <div class="row">
+                <div class="form-group col-md-4">
+                    <label asp-for="AccidentYear" class="control-label">事故発生年</label>
+                    @Html.DropDownListFor(model => model.AccidentYear, ViewBag.YearList as SelectList, "", new { @class = "form-control" })
+                    <span asp-validation-for="AccidentYear" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-4">
+                    <label asp-for="AccidentMonth" class="control-label">月</label>
+                    @Html.DropDownListFor(model => model.AccidentMonth, ViewBag.MonthList as SelectList, "", new { @class = "form-control" })
+                    <span asp-validation-for="AccidentMonth" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-4">
+                    <label asp-for="AccidentDateTime" class="control-label">時間</label>
+                    @Html.DropDownListFor(model => model.AccidentDateTime, ViewBag.TimeList as SelectList, "", new { @class = "form-control" })
+                    <span asp-validation-for="AccidentDateTime" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Seventh Row: 事故発生場所（都道府県） -->
+            <div class="row">
+                <div class="form-group col-md-4">
+                    <label asp-for="AccidentLocationPref" class="control-label">事故発生場所（都道府県）</label>
+                    @Html.DropDownListFor(model => model.AccidentLocationPref, new SelectList(ViewBag.AccidentLocationPrefList, "ItemName", "ItemName"), "", new { @class = "form-control" })
+                    <span asp-validation-for="AccidentLocationPref" class="text-danger"></span>
+                </div>
+            </div>
+
+            <!-- Other Fields -->
+            <div class="form-group">
+                <label asp-for="AccidentBackground" class="control-label">事故に至る経緯と事故の状況</label>
+                <textarea asp-for="AccidentBackground" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="AccidentBackground" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AccidentCause" class="control-label">事故の要因（背景も含む）</label>
+                <textarea asp-for="AccidentCause" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="AccidentCause" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AccidentCountermeasure" class="control-label">事故発生後の対策</label>
+                <textarea asp-for="AccidentCountermeasure" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="AccidentCountermeasure" class="text-danger"></span>
+            </div>
+
+            <div class="form-group d-flex justify-content-between">
+                <a href="@Url.Action("Index", "Accidents", new {
+        constructionField = ViewBag.ConstructionField,
+        constructionType = ViewBag.ConstructionType,
+        yearFrom = ViewBag.YearFrom,
+        monthFrom = ViewBag.MonthFrom,
+        timeFrom = ViewBag.TimeFrom,
+        yearTo = ViewBag.YearTo,
+        monthTo = ViewBag.MonthTo,
+        timeTo = ViewBag.TimeTo,
+        accidentBackground = ViewBag.AccidentBackground
+    })" class="btn btn-secondary" id="cancelButton">キャンセル</a>
+                <input type="submit" value="保存" class="btn btn-primary" />
+            </div>
+        </form>
+
+        <form id="deleteForm" asp-action="Delete" asp-route-id="@Model.AccidentId" method="post">
+            @Html.AntiForgeryToken()
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        (function () {
+            let isFormChanged = false;
+
+            document.getElementById('editForm').addEventListener('change', function () {
+                isFormChanged = true;
+            });
+
+            document.getElementById('editForm')?.addEventListener('submit', function (event) {
+                if (!$(this).valid()) {
+                    event.preventDefault();
+                    alert('必須項目が入力されておりません。必須項目を入力してください。');
+                    return false;
+                }
+            });
+
+            document.getElementById('cancelButton').addEventListener('click', function (e) {
+                if (isFormChanged) {
+                    if (confirm('保存せずキャンセルしますか？')) {
+                        window.location.href = '@Url.Action("Index")';
+                    } else {
+                        // If not confirmed, prevent navigation
+                        e.preventDefault();
+                    }
+                } else {
+                    window.location.href = '@Url.Action("Index")';
+                }
+            });
+
+            document.getElementById('deleteButton').addEventListener('click', function (e) {
+                if (confirm('データを削除しますか？')) {
+                    document.getElementById('deleteForm').submit();
+                }
+            });
+
+        @if (ViewBag.FailureFlag != null && ViewBag.FailureFlag == true)
+        {
+            <text>
+                        alert('保存失敗しました');
+            </text>
+        }
+                                                })();
+    </script>
+}

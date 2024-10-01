@@ -1,0 +1,435 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\views\\accidents\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\views\\accidents\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\controllers\\accidentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\controllers\\accidentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\models\\accidents\\accidents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\models\\accidents\\accidents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\models\\accidents\\accidentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\models\\accidents\\accidentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\models\\itemlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\models\\itemlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\models\\htmlhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\models\\htmlhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\views\\accidents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\views\\accidents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\models\\accidents\\accidentindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\models\\accidents\\accidentindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\models\\accidents\\accidentfilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\models\\accidents\\accidentfilterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\models\\accidents\\accidenteditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\models\\accidents\\accidenteditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\models\\accidents\\accidentcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\models\\accidents\\accidentcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\views\\accidents\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\views\\accidents\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\views\\accidents\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\views\\accidents\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\views\\accidents\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\views\\accidents\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|c:\\users\\pcj-user\\source\\repos\\accidentdatastorage\\accidentdatastorage\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B79F51D6-091A-4FB0-827E-427CB2470FF1}|AccidentDataStorage\\AccidentDataStorage.csproj|solutionrelative:accidentdatastorage\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 305,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Accidents.cs",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Models\\Accidents\\Accidents.cs",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Models\\Accidents\\Accidents.cs",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Models\\Accidents\\Accidents.cs",
+              "RelativeToolTip": "AccidentDataStorage\\Models\\Accidents\\Accidents.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T05:12:18.459Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccidentsController.cs",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Controllers\\AccidentsController.cs",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Controllers\\AccidentsController.cs",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Controllers\\AccidentsController.cs",
+              "RelativeToolTip": "AccidentDataStorage\\Controllers\\AccidentsController.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAQwKMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T05:43:18.575Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f37f5141-198e-4181-9582-7b026ee8f915}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Views\\Accidents\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Views\\Accidents\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Views\\Accidents\\Edit.cshtml",
+              "RelativeToolTip": "AccidentDataStorage\\Views\\Accidents\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T01:20:29.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccidentCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Models\\Accidents\\AccidentCreateViewModel.cs",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Models\\Accidents\\AccidentCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Models\\Accidents\\AccidentCreateViewModel.cs",
+              "RelativeToolTip": "AccidentDataStorage\\Models\\Accidents\\AccidentCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T04:43:18.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccidentFilterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Models\\Accidents\\AccidentFilterViewModel.cs",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Models\\Accidents\\AccidentFilterViewModel.cs",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Models\\Accidents\\AccidentFilterViewModel.cs",
+              "RelativeToolTip": "AccidentDataStorage\\Models\\Accidents\\AccidentFilterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T04:36:51.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "AccidentDataStorage\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-18T00:32:40.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccidentIndexViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Models\\Accidents\\AccidentIndexViewModel.cs",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Models\\Accidents\\AccidentIndexViewModel.cs",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Models\\Accidents\\AccidentIndexViewModel.cs",
+              "RelativeToolTip": "AccidentDataStorage\\Models\\Accidents\\AccidentIndexViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T05:05:37.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccidentService.cs",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Models\\Accidents\\AccidentService.cs",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Models\\Accidents\\AccidentService.cs",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Models\\Accidents\\AccidentService.cs",
+              "RelativeToolTip": "AccidentDataStorage\\Models\\Accidents\\AccidentService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAQwHEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T01:18:14.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HtmlHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Models\\HtmlHelpers.cs",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Models\\HtmlHelpers.cs",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Models\\HtmlHelpers.cs",
+              "RelativeToolTip": "AccidentDataStorage\\Models\\HtmlHelpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T01:13:58.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Views\\Accidents\\Index.cshtml",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Views\\Accidents\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Views\\Accidents\\Index.cshtml",
+              "RelativeToolTip": "AccidentDataStorage\\Views\\Accidents\\Index.cshtml",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAwJcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T05:43:49.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemList.cs",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Models\\ItemList.cs",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Models\\ItemList.cs",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Models\\ItemList.cs",
+              "RelativeToolTip": "AccidentDataStorage\\Models\\ItemList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T05:13:37.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccidentEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Models\\Accidents\\AccidentEditViewModel.cs",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Models\\Accidents\\AccidentEditViewModel.cs",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Models\\Accidents\\AccidentEditViewModel.cs",
+              "RelativeToolTip": "AccidentDataStorage\\Models\\Accidents\\AccidentEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T04:44:48.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Views\\Accidents\\Details.cshtml",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Views\\Accidents\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Views\\Accidents\\Details.cshtml",
+              "RelativeToolTip": "AccidentDataStorage\\Views\\Accidents\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T06:19:52.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Views\\Accidents\\Delete.cshtml",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Views\\Accidents\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Views\\Accidents\\Delete.cshtml",
+              "RelativeToolTip": "AccidentDataStorage\\Views\\Accidents\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T06:19:18.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Views\\Accidents\\Create.cshtml",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Views\\Accidents\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Views\\Accidents\\Create.cshtml",
+              "RelativeToolTip": "AccidentDataStorage\\Views\\Accidents\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T04:58:51.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "AccidentDataStorage\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T03:12:58.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AccidentDataStorage\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAABFwCUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T04:10:11.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "jquery.validate.js",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "RelativeToolTip": "AccidentDataStorage\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "ViewState": "AgIAADEBAAAAAAAAAAAYwD8BAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-18T03:53:14.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "AccidentDataStorage\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAABFwDIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T04:59:47.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "AccidentDataStorage\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwDUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T05:00:13.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Program.cs",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Program.cs",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Program.cs",
+              "RelativeToolTip": "AccidentDataStorage\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T02:10:44.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "jquery.js",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "AccidentDataStorage\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AgIAAOcVAAAAAAAAAAAcwPYVAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-18T03:53:55.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "AccidentDataStorage\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\PCJ-USER\\source\\repos\\AccidentDataStorage\\AccidentDataStorage\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "AccidentDataStorage\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-18T00:02:21.296Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 95,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

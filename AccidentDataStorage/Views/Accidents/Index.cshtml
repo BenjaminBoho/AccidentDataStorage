@@ -1,0 +1,157 @@
+﻿@model IEnumerable<AccidentDataStorage.Models.Accidents.Accidents>
+@using AccidentDataStorage.Helpers
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<form method="get" class="mb-3">
+    <div class="form-group row">
+        <label class="col-md-2">工事分野</label>
+        <div class="col-md-10">
+            @Html.DropDownList("constructionField", ViewBag.ConstructionFieldList as SelectList, "", new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-md-2 col-form-label">工事の種類</label>
+        <div class="col-md-10">
+            @Html.DropDownList("constructionType", ViewBag.ConstructionTypeList as SelectList, "", new { @class = "form-control" })
+        </div>
+    </div>
+
+    <!-- First row for year and month -->
+    <div class="form-group row">
+        <label class="col-md-2 col-form-label">事故発生年・月・時間</label>
+        <div class="col-md-2">
+            @Html.DropDownList("yearFrom", ViewBag.YearList as SelectList, "年", new { @class = "form-control" })
+        </div>
+        <div class="col-md-2">
+            @Html.DropDownList("monthFrom", ViewBag.MonthList as SelectList, "月", new { @class = "form-control" })
+        </div>
+        <label class="col-md-2 col-form-label text-center">～</label>
+        <div class="col-md-2">
+            @Html.DropDownList("yearTo", ViewBag.YearList as SelectList, "年", new { @class = "form-control" })
+        </div>
+        <div class="col-md-2">
+            @Html.DropDownList("monthTo", ViewBag.MonthList as SelectList, "月", new { @class = "form-control" })
+        </div>
+    </div>
+
+    <!-- Second row for 時間 -->
+    <div class="form-group row">
+        <label class="col-md-2 col-form-label"></label>
+        <div class="col-md-4">
+            @Html.DropDownList("timeFrom", ViewBag.TimeList as SelectList, "時間", new { @class = "form-control" })
+        </div>
+        <label class="col-md-2 col-form-label text-center">～</label>
+        <div class="col-md-4">
+            @Html.DropDownList("timeTo", ViewBag.TimeList as SelectList, "時間", new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-md-2 col-form-label">事故に至る経緯と事故の状況</label>
+        <div class="col-md-10">
+            <input type="text" name="accidentBackground" class="form-control" value="@ViewContext.HttpContext.Request.Query["accidentBackground"]" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="d-flex justify-content-between">
+            <a asp-action="Create" class="btn btn-primary">新規作成</a>
+            <button type="submit" class="btn btn-primary">検索</button>
+        </div>
+    </div>
+</form>
+
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-warning">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+
+<div class="table-responsive">
+    <table class="table table-hover table-striped shadow-sm">
+        <thead class="thead-light">
+            <tr>
+                @{
+                    var columns = new List<(string DisplayName, string SortOrder)>
+                {
+                ("ID", ViewBag.AccidentIdSort),
+                ("工事分野", ViewBag.ConstructionFieldSort),
+                ("工事の種類", ViewBag.ConstructionTypeSort),
+                ("工種", ViewBag.WorkTypeSort),
+                ("工法・形式名", ViewBag.ConstructionMethodSort),
+                ("災害分類", ViewBag.DisasterCategorySort),
+                ("事故分類", ViewBag.AccidentCategorySort),
+                ("天候", ViewBag.WeatherSort),
+                ("事故発生年・月・時間", ViewBag.AccidentDateSort),
+                ("事故発生場所（都道府県）", ViewBag.AccidentLocationPrefSort),
+                ("事故に至る経緯と事故の状況", ViewBag.AccidentBackgroundSort)
+                };
+
+                    foreach (var column in columns)
+
+                    {
+                            <th>
+                                @column.DisplayName
+                                @Html.RenderSortForm(column.SortOrder, ViewContext.HttpContext.Request)
+                            </th>
+                    }
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.AccidentId</td>
+                    <td>@Html.DisplayFor(modelItem => item.ConstructionField)</td>
+                    <td>@Html.DisplayFor(modelItem => item.ConstructionType)</td>
+                    <td>@Html.DisplayFor(modelItem => item.WorkType)</td>
+                    <td>@Html.DisplayFor(modelItem => item.ConstructionMethod)</td>
+                    <td>@Html.DisplayFor(modelItem => item.DisasterCategory)</td>
+                    <td>@Html.DisplayFor(modelItem => item.AccidentCategory)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Weather)</td>
+                    <td class="accident-date-column">
+                        @Html.DisplayFor(modelItem => item.AccidentYear)年
+                        @Html.DisplayFor(modelItem => item.AccidentMonth)月
+                        @Html.DisplayFor(modelItem => item.AccidentDateTime)時
+                    </td>
+                    <td>@Html.DisplayFor(modelItem => item.AccidentLocationPref)</td>
+                    <td class="accident-background-colum">
+                        @Html.DisplayFor(modelItem => item.AccidentBackground)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.AccidentId"
+                           asp-route-constructionField="@ViewContext.HttpContext.Request.Query["constructionField"]"
+                           asp-route-constructionType="@ViewContext.HttpContext.Request.Query["constructionType"]"
+                           asp-route-yearFrom="@ViewContext.HttpContext.Request.Query["yearFrom"]"
+                           asp-route-monthFrom="@ViewContext.HttpContext.Request.Query["monthFrom"]"
+                           asp-route-timeFrom="@ViewContext.HttpContext.Request.Query["timeFrom"]"
+                           asp-route-yearTo="@ViewContext.HttpContext.Request.Query["yearTo"]"
+                           asp-route-monthTo="@ViewContext.HttpContext.Request.Query["monthTo"]"
+                           asp-route-timeTo="@ViewContext.HttpContext.Request.Query["timeTo"]"
+                           asp-route-accidentBackground="@ViewContext.HttpContext.Request.Query["accidentBackground"]"
+                           class="btn btn-primary no-break">編集</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('success')) {
+            alert('保存成功しました');
+            history.replaceState(null, '', window.location.pathname);
+
+        }
+    </script>
+}
